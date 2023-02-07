@@ -138,7 +138,7 @@ main > p {
     height: 550px;
     position: absolute;
     right: 90px;
-    top: 170px; 
+    top: 160px; 
 }
 
 /* BREAKPOINTS */
@@ -196,7 +196,7 @@ main > p {
         font-size: 1.2em;
     }
     .opt::before{
-        height: 3px;
+        height: 2px;
     }
     .btn {
         width: 200px;
