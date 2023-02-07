@@ -204,4 +204,8 @@ main > p {
     .btn:hover {
         background-image: linear-gradient(to right, #11bc6c,#096439);
     }
+    ::-webkit-scrollbar {
+        height: 0px;
+        width: 0px;
+    }
 }
