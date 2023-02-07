@@ -197,6 +197,7 @@ main > p {
     }
     .opt::before{
         height: 2px;
+        background-color: #0A8C11;
     }
     .btn {
         width: 200px;
