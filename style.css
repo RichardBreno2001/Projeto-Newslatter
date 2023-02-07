@@ -201,4 +201,7 @@ main > p {
     .btn {
         width: 200px;
     }
+    .btn:hover {
+        background-image: linear-gradient(to right, #11bc6c,#096439);
+    }
 }
