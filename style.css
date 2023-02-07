@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.584)), url('imagens/gifs-aesthetic-wallpaper-para-desktop-e-mobile-5.gif');
+    background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.584)), url('imagens/celular.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -114,6 +114,10 @@ main > p {
     font-size: 2em;
     color: white;
     width: 500px;
+    border-radius: 20px;
+}
+.cadastr::placeholder {
+    color: rgba(255, 255, 255, 0.605);
 }
 
 .btn {
@@ -125,4 +129,76 @@ main > p {
     border-radius: 20px;
     width: 500px;
     cursor: pointer;
+}
+
+/* IMAGEM ANIME */
+
+.anime {
+    width: 600px;
+    height: 550px;
+    position: absolute;
+    right: 90px;
+    top: 170px; 
+}
+
+/* BREAKPOINTS */
+
+@media screen and (min-width: 1300px) {
+
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.584)), url('imagens/notebook3.gif');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+    }
+
+    header {
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+        background-color: rgba(0, 0, 0, 0);
+        padding-bottom: 50px;
+    }
+
+    header > h1 {
+        font-size: 4em;
+    }
+
+    header > nav > ul > li > a {
+        font-size: 1.2em;
+    }
+    main > p {
+        text-align: center;
+        width: 800px;
+        padding-bottom: 50px;
+        background-color: rgba(0, 0, 0, 0);
+        text-indent: 20px;
+    }
+    main > h2 {
+        font-size: 3em;
+        width: 800px;
+    }
+
+    .btn2 {
+        border-width: 2px;
+        background-image: linear-gradient(to left, #AC2BE3, #5f177e);
+        border-color: #0b8049e1;
+        padding: 10px;
+    }
+    .cadastro {
+        width: 800px;
+    }
+    .opt {
+        font-size: 1.2em;
+    }
+    .opt::before{
+        height: 3px;
+    }
+    .btn {
+        width: 200px;
+    }
 }

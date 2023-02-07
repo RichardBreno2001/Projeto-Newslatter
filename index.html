@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body onresize="monitorar()">
     <header>
         <h1>Projeto Newslatter</h1>
         <nav>
@@ -30,8 +30,19 @@
                 <input type="button" value="Enviar" class="btn">
 
             </form>
-
         </section>
+        <img src="imagens/gif 6.gif" alt="ImagemAnime" class="anime">
+        <script>
+
+            function monitorar() {
+                let GifSite = window.document.querySelector('img.anime')
+                if(window.innerWidth >= 1300) {
+                    GifSite.style.display = 'block'
+                } else {
+                    GifSite.style.display = 'none'
+                }
+            }
+        </script>
       
     </main>
     
