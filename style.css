@@ -139,6 +139,7 @@ main > p {
     position: absolute;
     right: 90px;
     top: 160px; 
+    display: none;
 }
 
 /* BREAKPOINTS */

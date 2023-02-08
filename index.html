@@ -31,7 +31,7 @@
 
             </form>
         </section>
-        <img src="imagens/gif 6.gif" alt="ImagemAnime" class="anime">
+        <img onload="carregar()" src="imagens/gif 6.gif" alt="ImagemAnime" class="anime">
         <script>
 
             function monitorar() {
@@ -41,6 +41,16 @@
                 } else {
                     GifSite.style.display = 'none'
                 }
+            }
+
+            function carregar() {
+                let GifSite = window.document.querySelector('img.anime')
+                if(window.innerWidth  >= 1300) {
+                    GifSite.style.display = 'block'
+                } else {
+                    GifSite.style.display = 'none'
+                }
+
             }
         </script>
       
